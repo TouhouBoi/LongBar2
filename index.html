@@ -1,87 +1,60 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>AvalonBar</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-	  <img src="images/abLogo.png" />
-      <h1 class="project-name">AvalonBar</h1>
-      <h2 class="project-tagline">AvalonBar is an open-source tile-based sidebar that is aimed to re-implement the features of the Longhorn Sidebar and add addtional enhancements and features</h2>
-      <a href="https://github.com/FranklinDM/AvalonBar" class="btn">View on GitHub</a>
-      <a href="https://github.com/FranklinDM/AvalonBar/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/FranklinDM/AvalonBar/tarball/master" class="btn">Download .tar.gz</a>
-    </section>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>AvalonBar</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen"/>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'/>
+		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen"/>
+		<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen"/>
+	</head>
+	<body>
+		<section class="page-header">
+			<img src="images/abLogo.png" />
+			<h1 class="project-name">AvalonBar</h1>
+			<h2 class="project-tagline">AvalonBar is an open source tile-based sidebar inspired by the features of Longhorn Sidebar</h2>
+			<a href="https://github.com/FranklinDM/AvalonBar" class="btn">View on GitHub</a>
+			<a href="https://github.com/FranklinDM/AvalonBar/zipball/master" class="btn">Download .zip</a>
+			<a href="https://github.com/FranklinDM/AvalonBar/tarball/master" class="btn">Download .tar.gz</a>
+		</section>
 
-<section class="main-content">
-<h3>
-<a id="about" class="anchor" href="#about"></a>What is AvalonBar?</h3>
+		<section class="main-content">
+			<h3><a id="about" class="anchor" href="#about"></a>What is AvalonBar?</h3>
+			<p>
+				<li>AvalonBar is an open-source tile-based sidebar that displays useful information and helps the user have easier access to content/tasks.</li>
+				The UI uses WPF, and C# as its programming language. This project is a fork of LongBar.</p>
 
-<p>AvalonBar is an open-source tile-based sidebar that displays useful information and helps the user to have easier access to content/tasks. The UI uses WPF, and C# as its programming language. A fork of LongBar from CodePlex (which had no progress since <i>2010</i>, 7 years ago).</p>
+			<h3><a id="license" class="anchor" href="#license"></a>License</h3>
+			<p>This project is licensed under the <a href="https://tldrlegal.com/license/microsoft-public-license-%28ms-pl%29">Microsoft Public License (MS-PL)</a>.</p>
 
-<h3>
-<a id="license" class="anchor" href="#license"></a>License</h3>
+			<h3><a id="sysreq" class="anchor" href="#sysreq"></a>System Requirements</h3>
+			<p>
+				<li>Microsoft Windows Vista or higher</li>
+				<li>Microsoft .NET Framework 3.5 (Some tiles may require higher versions of .NET Framework)</li>
+				Note: AvalonBar does not come with any tiles. You need to download and install them.
+			</p>
 
-<p>AvalonBar is licensed under the Microsoft Public License (MS-PL), its definition/full text could be found <a href="https://tldrlegal.com/license/microsoft-public-license-%28ms-pl%29">here at TLDRLegal</a>.</p>
+			<h3><a id="tiles" class="anchor" href="#tiles"></a>Downloading and Installing Tiles</h3>
+			<p>
+				<li><b>Method 1 - Manually</b></li>
+				You can get some tiles <a href="http://cid-820d4d5cef8566bf.skydrive.live.com/browse.aspx/LongBar%20Project/Library%202.0">here</a>. There are some files in *.tile format. Install them by just double-clicking on the file. You will see installing tile dialog. If you don't see this dialog, that means that for some reason, the .tile format wasn't registered. You can install tiles by dragging it on AvalonBar.
+				<li><b>Method 2 - By Library</b></li>
+				To get tiles just click Tile Library in AvalonBar's context menu. The Tile Library window will appear where you can download and install any tile with three clicks. (Tip: You can see installed tiles by clicking Local Tiles in the far-left corner of the window)
+			</p>
 
-<h3>
-<a id="goal" class="anchor" href="#goal"></a>Goal</h3>
+			<h3><a id="support" class="anchor" href="#support"></a>Support</h3>
+			<p>
+			Please use the <a href="https://github.com/FranklinDM/AvalonBar/issues">issue tracker</a> for help regarding problems with the sidebar, feature suggestions, and the like.
+			</p>
 
-<p>Our goal is to preserve and try to re-implement Longhorn's concept about the sidebar and bit-by-bit add additional enhancements and features.</p>
+			<footer style="font-size: 70%;" class="site-footer">
+				<span class="site-footer-owner">
+					<a href="https://github.com/FranklinDM/AvalonBar">AvalonBar</a> is maintained by <a href="https://github.com/FranklinDM">FranklinDM</a>.
+				</span>
 
-<h3>
-<a id="sysreq" class="anchor" href="#sysreq"></a>What do I need to start using AvalonBar?<span style="font-size:50%;"> Tech speak: System Requirements</span></h3>
-
-<p>
-<li>Microsoft Windows Vista or higher</li>
-<li>Microsoft .NET Framework 3.5 (Some tiles may require higher versions of .NET Framework)</li>
-Note: AvalonBar does not come with any tiles. You need to download and install them. (see below)
-</p>
-
-<h3>
-<a id="sysreq" class="anchor" href="#sysreq"></a>Where can I get tiles?</h3>
-
-<p>
-<li>Method 1 - Manually:</li>
-You can get some tiles <a href="http://cid-820d4d5cef8566bf.skydrive.live.com/browse.aspx/LongBar%20Project/Library%202.0">here</a>. There are some files in *.tile format. Install them by just double-clicking on the file. You will see installing tile dialog. If you don't see this dialog, that means that for some reason, the .tile format wasn't registered. You can install tiles by dragging it on AvalonBar.
-
-<li>Method 2 - By Library:</li>
-To get tiles just click Tile Library in AvalonBar's context menu. The Tile Library window will appear where you can download and install any tile with three clicks. (Tip: You can see installed tiles by clicking Local Tiles in the far-left corner of the window)
-</p>
-
-<h3>
-<a id="auths" class="anchor" href="#auths"></a>Authors and Contributors</h3>
-
-<p>
-<h4>AvalonBar Developer(s)</h4>
-<li><a href="https://github.com/franklindm">FranklinDM</a></li>
-
-<h4>LongBar Developer(s)</h4>
-<li><a href="http://www.codeplex.com/site/users/view/Stealth2009">Stealth2009</a></li>
-Project Member since Jun 28, 2009
-
-<li><a href="http://www.codeplex.com/site/users/view/migue333">migue333</a></li>
-Project Member since Jul 2, 2009
-</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact"></a>Support or Contact</h3>
-
-<p>
-Need help? Feel free to send an issue to <a href="https://github.com/FranklinDM/AvalonBar/issues">AvalonBar's issue tracker</a> and we'll get to you right away (depends if I have time though).
-</p>
-
-      <footer style="font-size: 70%;" class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/FranklinDM/AvalonBar">AvalonBar</a> is maintained by <a href="https://github.com/FranklinDM">FranklinDM</a>.</span>
-
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
-    </section>
-  </body>
+				<span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+			</footer>
+		</section>
+	</body>
 </html>
